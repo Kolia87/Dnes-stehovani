@@ -1,0 +1,72 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $background-dark-theme;
+  // background-image: url(../images/heder-bg.jpg);
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+// .footer__logo {
+//   margin-bottom: 20px;
+// }
+.address-menu__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.address-menu__link {
+  @include font(400, 14px, 24px);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  display: block;
+  color: $footer-color;
+  transition: color 250ms $cubic-beizer-hover;
+  &--white {
+    color: $white-text-color;
+  }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.subscription__title {
+  margin-bottom: 20px;
+  @include font(700, 14px, 16px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-text-color;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__box {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .footer__left {
+    display: flex;   
+    justify-content: flex-start; 
+  }
+  .footer__logo {
+    margin-left: 0;
+    margin-right: 100px;
+  }
+  .address-menu__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .subscription {
+    margin-left: 70px;
+  }
+}
