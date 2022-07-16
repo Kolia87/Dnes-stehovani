@@ -55,24 +55,7 @@
     @include font(900, 26px, 42px);
   }
   @media screen and (min-width: 1200px) {
-    @include font(900, 44px, 60px);
+    @include font(900, 26px, 60px);
   }
 }
 
-.hero__btn {
-  padding: 10px 32px;
-  align-items: center;
-  @include font(700, 16px, 30px);
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: $white-text-color;
-  background-color: $accent-color;
-  border: none;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms $cubic-beizer-hover;
-  &:hover,
-  &:focus {
-    background-color: $button-hover;
-  }
-}

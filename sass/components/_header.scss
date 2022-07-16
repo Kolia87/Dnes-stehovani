@@ -12,6 +12,23 @@
     align-items: baseline;
    
   }
+  .btn{
+    padding: 10px 32px;
+  align-items: center;
+  @include font(700, 16px, 30px);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: $white-text-color;
+  background-color: $accent-color;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms $cubic-beizer-hover;
+  &:hover,
+  &:focus {
+    background-color: $button-hover;
+  }
+  }
   
   @media screen and (max-width: 767px) {
     .nav-menu {

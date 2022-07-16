@@ -13,6 +13,9 @@
   .work__thumb {
     position: relative;
      }
+     .work__img-jpg{
+      background-size: contain;
+     }
   .work__subtitle {
     position: absolute;
     display: flex;
