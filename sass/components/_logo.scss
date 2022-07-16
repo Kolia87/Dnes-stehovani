@@ -7,9 +7,15 @@
 }
 
 .logo__dark {
-  color: $title-text-color;
+  // color: $title-text-color;
+  color: rgb(69, 76, 70);
 }
 
 .logo__light {
-  color: $white-text-color;
+  // color: $white-text-color;
+  color: rgb(69, 76, 70);
+
+}
+.logo__footer-left-icon{
+ color: rgba(84, 94, 233, 0.442);
 }

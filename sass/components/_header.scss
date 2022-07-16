@@ -2,6 +2,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ececec;
+    background-color: rgb(166, 194, 198);
   }
   
   .header__container {
@@ -9,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 20px;
+   
   }
   
   @media screen and (max-width: 767px) {
@@ -98,7 +99,9 @@
       align-items: center;
       @include font(500, 14px, 16px);
       letter-spacing: 0.02em;
-      color: $main-color;
+      // color: $main-color;
+      color: rgb(69, 76, 70);
+
       transition: color 250ms $cubic-beizer-hover;
       &:focus,
       &:hover {

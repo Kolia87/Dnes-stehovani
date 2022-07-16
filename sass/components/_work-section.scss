@@ -2,16 +2,17 @@
     display: flex;
     margin-top: 50px;
   }
+  
   .work__item {
     width: calc((100% - 60px) / 3);
-    &:not(:nth-child(3n)) {
+    &:not(:nth-child(4n)) {
       margin-right: 30px;
     }
   }
   
   .work__thumb {
     position: relative;
-  }
+     }
   .work__subtitle {
     position: absolute;
     display: flex;

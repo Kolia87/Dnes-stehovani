@@ -1,7 +1,9 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: $background-dark-theme;
+  // background-color: $background-dark-theme;
+  background-color: rgb(166, 194, 198);
+
   // background-image: url(../images/heder-bg.jpg);
   @media screen and (max-width: 1199px) {
     text-align: center;
@@ -20,10 +22,13 @@
   font-style: normal;
   letter-spacing: 0.03em;
   display: block;
-  color: $footer-color;
+  // color: $footer-color;
+  color: rgb(69, 76, 70);
+
   transition: color 250ms $cubic-beizer-hover;
   &--white {
-    color: $white-text-color;
+    color: rgb(69, 76, 70);
+    
   }
   &:hover,
   &:focus {
@@ -36,7 +41,9 @@
   @include font(700, 14px, 16px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: $white-text-color;
+  // color: $white-text-color;
+  color: rgb(69, 76, 70);
+
 }
 
 @media screen and (min-width: 768px) {

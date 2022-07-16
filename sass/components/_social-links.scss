@@ -34,7 +34,8 @@
   }
   
   .social-list__icon--dark {
-    fill: $white-text-color;
+    // fill: $white-text-color;
+    fill: rgba(84, 94, 233, 0.442);
   }
   .social-list__link--dark {
     background-color: rgba(255, 255, 255, 0.1);
