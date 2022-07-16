@@ -37,21 +37,21 @@
     .contact-header {
       display: none;
     }
-    .mobile-btn {
-      display: block;
-      padding: 12px 8px;
-      background-color: transparent;
-      border: none;
-    }
-    .mobile-btn__icon {
-      display: block;
-      fill: #000000;
-      transition: fill 250ms $cubic-beizer-hover;
-      .mobile-btn:focus &,
-      .mobile-btn:hover & {
-        fill: $accent-color;
-      }
-    }
+    // .mobile-btn {
+    //   display: block;
+    //   padding: 12px 8px;
+    //   background-color: transparent;
+    //   border: none;
+    // }
+    // .mobile-btn__icon {
+    //   display: block;
+    //   fill: #000000;
+    //   transition: fill 250ms $cubic-beizer-hover;
+    //   .mobile-btn:focus &,
+    //   .mobile-btn:hover & {
+    //     fill: $accent-color;
+    //   }
+    // }
   }
   @media screen and (min-width: 768px) {
     .mobile-btn {
@@ -66,6 +66,7 @@
     .navigation {
       display: flex;
       align-items: center;
+     
     }
     .nav-menu {
       display: flex;
